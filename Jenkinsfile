@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        input(message: 'Is this OK?', id: '01', submitterParameter: 'Hello')
+        echo 'Testing, testing 123'
       }
     }
     stage('Publish') {
